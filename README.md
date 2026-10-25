@@ -5,7 +5,7 @@ A web app for a UK utility's **day-ahead power-buying team**. It answers two que
 1. **What wind generation was forecast when we had to decide?** It shows the latest Elexon wind forecast published before the trader's decision time (default 09:00 on D-1, adjustable) against what was actually generated.
 2. **How far can we trust that forecast?** It quantifies forecast error (MAE, RMSE, bias, P10/P90, error vs horizon, daily error). It also turns the error into a **"firm wind" estimate**: wind output we can rely on with 90% confidence. The rest of the requirement is bought day-ahead.
 
-**Live app:** _VERCEL_URL_
+**Live app:** https://rey3me.vercel.app
 
 Scope: national GB wind only, from Elexon BMRS:
 - [FUELHH](https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/FUELHH/stream) gives half-hourly actual generation (fuelType `WIND`).
